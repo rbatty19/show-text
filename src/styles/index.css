@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    display: table;
+}
+
+h1#first-text {
+    color: white;
+    font-size: 8em;
+    font-family: 'Monda', sans-serif;
+}
+
+div.text-block {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
